@@ -1,0 +1,16 @@
+header {
+    background-color:rgb(253, 255, 225) 
+}
+
+nav li {
+    display: inline; /*colocar os elementos de uma lista em horizontal*/
+    margin: 0 0 0 15px; /*alterando espaçamento entre um link e outro*/
+}
+
+nav a {
+    text-transform: uppercase; /*colocando texto em maiusculo*/
+    color: rgb(192, 104, 104);
+    font-size: 20px;
+    text-decoration: none; /*tirando sublinhado que estava como padrão*/
+
+}
