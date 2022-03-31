@@ -4,11 +4,26 @@ img{
 }
 
 .cards{
-    width: 300px;
-    height: 300px;
+    width: 940px;
+    margin: 0 auto;
+    padding: 50px 0;
 }
 
 .cards li{
     display: inline-block;
+    text-align: center;
+    width: 30%;
+    vertical-align: top;
+    background-color: white;
 }
 
+.cards h2{
+    font-size: 30px;
+    font-weight: 300;
+    color: rgb(192, 104, 104);
+}
+
+.tempo-preparo{
+    font-size: 20px;
+    color: rgb(124, 124, 124);
+}
