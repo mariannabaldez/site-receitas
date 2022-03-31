@@ -10,15 +10,20 @@ img{
 }
 
 .cards li{
+    /*alinhamento*/
     display: inline-block;
     text-align: center;
     width: 30%;
     vertical-align: top;
     background-color: white;
-
     margin: 0 1.5%;
     padding: 30px 20px;
     box-sizing: border-box;
+
+    /*borda*/
+    border-color: rgb(192, 104, 104);
+    border-width: 3px;
+    border-style: solid;
 }
 
 .cards h2{
