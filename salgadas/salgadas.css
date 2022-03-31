@@ -4,7 +4,7 @@ img{
 }
 
 .cards{
-    width: 940px;
+    width: 1500px;
     margin: 0 auto;
     padding: 50px 0;
 }
@@ -15,15 +15,21 @@ img{
     width: 30%;
     vertical-align: top;
     background-color: white;
+
+    margin: 0 1.5%;
+    padding: 30px 20px;
+    box-sizing: border-box;
 }
 
 .cards h2{
     font-size: 30px;
     font-weight: 300;
+    margin-bottom: 10px;
     color: rgb(192, 104, 104);
 }
 
 .tempo-preparo{
     font-size: 20px;
+    margin-top: 10px;
     color: rgb(124, 124, 124);
 }
