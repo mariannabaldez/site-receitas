@@ -1,20 +1,18 @@
 import App from "next/app";
-import Home from '../components/home/home'
 import Head from 'next/head'
 
-function Doces() {
+import Home from '../components/home'
+import Doces from "../components/cards-receitas/cads-doces";
+
+export default function Doces() {
 	return (
 	  	<div>
 			<Head>
-				<title> Receitas da Marianna</title>
+				<title> Receitas Doces</title>
 			</Head>
 			<Home />
-			
-
-
+            <Doces />
 	  	</div>
 
-	)
-    }
-
-export default Doces;
+	);
+};

@@ -1,20 +1,17 @@
 import App from "next/app";
-import Home from '../components/home/home'
-import Head from 'next/head'
-import Salgadas from '../components/receitas/salgadas'
+import Head from 'next/head';
+
+import Home from '../components/home';
+import Salgadas from '../components/cards-receitas/cards-salgados';
 
 export default function Page() {
 	return (
-	  	<div>
+	  	<div className="conteudo">
 			<Head>
-				<title> Receitas da Marianna</title>
+				<title> Receitas Salgadas</title>
 			</Head>
 			<Home />
             <Salgadas />
-			
-
-
 	  	</div>
-
-	)
-}
+	);
+};
