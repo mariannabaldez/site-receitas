@@ -1,6 +1,6 @@
 import Link from "next/link";
 import Image from 'next/image'
-import picture from '../../public/img/strogonoff-frango.webp'
+import strogonoff-frango from '../../public/img/strogonoff-frango.webp'
 
 const Salgadas = () => (
     <div>
@@ -9,7 +9,7 @@ const Salgadas = () => (
         <ul class="cards">
             <li>
                 <h2>Strogonoff de Frango</h2>
-                <Image src= {picture}/>
+                <Image src= {strogonoff-frango}/>
                 <p class="tempo-preparo">20 min de preparo</p>
             </li>
             <li>
