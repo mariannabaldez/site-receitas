@@ -1,6 +1,10 @@
 import Link from "next/link";
-import Image from 'next/image'
-import strogonoff-frango from '../../public/img/strogonoff-frango.webp'
+import Image from 'next/image';
+
+//import das imagens usadas nos cards
+import strogonoff-frango from '../../public/img/strogonoff-frango.webp';
+import batata-recheada from '../../public/img/batata-recheada.jpeg';
+import arroz-soltinho from '../../public/img/arroz-soltinho.jpg';
 
 const Salgadas = () => (
     <div>
@@ -14,12 +18,12 @@ const Salgadas = () => (
             </li>
             <li>
                 <h2>Batata Recheada</h2>
-                {/* <img src="../img/batata-recheada.jpeg"> */}
+                <Image src= {batata-recheada}}/>
                 <p class="tempo-preparo">50 min de preparo</p>
             </li>
             <li>
                 <h2>Arroz Soltinho</h2>
-                {/* <img src="../img/arroz-soltinho.jpg"> */}
+                <Image src= {arroz-soltinho}}/>
                 <p class="tempo-preparo">25 min de preparo</p>
             </li>
         </ul>
