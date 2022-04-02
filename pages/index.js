@@ -1,10 +1,10 @@
 import App from "next/app";
-import Home from '../components/home/home'
 import Head from 'next/head'
+
+import Home from '../components/home'
 
 export default function Index(){
     return (
-            <Home />
-        
-    )
-}
+        <Home />
+    );
+};
