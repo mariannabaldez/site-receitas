@@ -6,7 +6,7 @@ import strogonoff-frango from '../../public/img/strogonoff-frango.webp';
 import batata-recheada from '../../public/img/batata-recheada.jpeg';
 import arroz-soltinho from '../../public/img/arroz-soltinho.jpg';
 
-const Salgadas = () => (
+const CardsSalgados = () => (
     <div>
         <h1>Receitas Salgadas</h1>
     <main>
@@ -31,4 +31,4 @@ const Salgadas = () => (
     </div>
 )
 
-export default Salgadas;
+export default CardsSalgados;
