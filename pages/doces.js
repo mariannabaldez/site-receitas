@@ -4,7 +4,7 @@ import Head from 'next/head'
 import Home from '../components/home'
 import Doces from "../components/cards-receitas/cads-doces";
 
-export default function Doces() {
+export default function ReceitasDoces() {
 	return (
 	  	<div>
 			<Head>
