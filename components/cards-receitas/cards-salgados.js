@@ -7,7 +7,7 @@ import batata-recheada from '../../public/img/batata-recheada.jpeg';
 import arroz-soltinho from '../../public/img/arroz-soltinho.jpg';
 
 const CardsSalgados = () => (
-    <div>
+    <section>
         <h1>Receitas Salgadas</h1>
     <main>
         <ul class="cards">
@@ -28,7 +28,7 @@ const CardsSalgados = () => (
             </li>
         </ul>
     </main>
-    </div>
+    </section>
 )
 
 export default CardsSalgados;
