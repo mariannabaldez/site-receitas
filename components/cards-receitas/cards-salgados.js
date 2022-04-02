@@ -29,6 +29,5 @@ const CardsSalgados = () => (
         </ul>
     </main>
     </section>
-)
-
+);
 export default CardsSalgados;
