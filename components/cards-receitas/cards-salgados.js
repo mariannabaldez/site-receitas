@@ -2,7 +2,7 @@ import Link from "next/link";
 import Image from 'next/image';
 
 //import das imagens usadas nos cards
-import StrogonoffFrango from '../../public/img/strogonoff-frango.webp';
+import StrogonoffFrango from '../../public/img/strogonoff-de-frango.jpg';
 import BatataRecheada from '../../public/img/batata-recheada.jpeg';
 import ArrozSoltinho from '../../public/img/arroz-soltinho.jpg';
 
