@@ -11,17 +11,17 @@ const CardsSalgados = () => (
         <h1>Receitas Salgadas</h1>
     <main>
         <ul class="cards">
-            <li>
+            <li className="strogonoff-frango">
                 <h2>Strogonoff de Frango</h2>
                 <Image src= {StrogonoffFrango}/>
                 <p class="tempo-preparo">20 min de preparo</p>
             </li>
-            <li>
+            <li className="batata-recheada">
                 <h2>Batata Recheada</h2>
                 <Image src= {BatataRecheada}/>
                 <p class="tempo-preparo">50 min de preparo</p>
             </li>
-            <li>
+            <li className="arroz-soltinho">
                 <h2>Arroz Soltinho</h2>
                 <Image src= {ArrozSoltinho}/>
                 <p class="tempo-preparo">25 min de preparo</p>
