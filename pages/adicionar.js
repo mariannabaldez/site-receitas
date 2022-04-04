@@ -6,6 +6,5 @@ import Home from '../components/home'
 export default function Adicionar(){
     return (
         <Home />
-        < />
     );
 };

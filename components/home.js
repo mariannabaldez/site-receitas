@@ -1,6 +1,7 @@
 import Link from "next/link";
+import Image from "next/image";
 
-
+import utensilios from '../public/img/utensilios-de-cozinha.png';
 
 const linkStyle = {
     marginRight: 15
@@ -9,7 +10,7 @@ const Home = () => (
 
     <header>
         <div class="centralizar-cabecalho">
-            {/* <h1><img src="./img/utensilios-de-cozinha.png"></h1> */}
+            <Image src={utensilios}/>
             <div class="titulo-cabecalho"><h2>Receitas da Marianna</h2></div>
 
             <nav>

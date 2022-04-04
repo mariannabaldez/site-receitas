@@ -30,4 +30,4 @@ const CardsDoces= () => (
         </main>
     </section>
 );
-export default CardsDoces
+export default CardsDoces;

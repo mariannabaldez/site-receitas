@@ -13,21 +13,25 @@ header {
     margin: 0 30px auto;
 }
 
+Image {
+    width: 50px;
+    height: 50px;
+}
+
 .titulo-cabecalho {
     text-transform: uppercase; /*colocando texto em maiusculo*/
     color: rgb(192, 104, 104);
-    font-size: 35px;
+    font-size: 20px;
     text-decoration: underline; /*colocando sublinhado*/
-
     position: relative;
-    /* top: 100px; posição de altura */
+    top: 0; /*posição de altura */
     left: 270px; /*posição da distancia da imagem*/
 }
 
 nav { /*posicionando meu texto*/
     position: relative;
     /* top: 200px; */
-    left: 200px;
+    left: 700px;
 }
 
 nav li {
@@ -38,7 +42,7 @@ nav li {
 nav a {
     text-transform: uppercase; /*colocando texto em maiusculo*/
     color: rgb(192, 104, 104);
-    font-size: 20px;
+    font-size: 18px;
     text-decoration: none; /*tirando sublinhado que estava como padrão*/
 
 }
