@@ -18,8 +18,11 @@ Image {
 
 .titulo-cabecalho {
     text-transform: uppercase; /*colocando texto em maiusculo*/
-    color: rgb(192, 104, 104);
+    text-decoration: underline;
+    color: rgb(201, 110, 110);
+    font:unset;
     font-size: 20px;
+
     text-align: center;
     position: absolute;
     top: 100px;
@@ -43,6 +46,7 @@ nav li {
 nav a {
     text-transform: uppercase; /*colocando texto em maiusculo*/
     color: rgb(192, 104, 104);
+    font:unset;
     font-size: 18px;
     text-decoration: none; /*tirando sublinhado que estava como padrão*/
 
