@@ -18,6 +18,7 @@ const Home = () => (
                     <li><a href="./">home</a></li>
                     <li><a href="/salgadas">receitas salgadas</a></li>
                     <li><a href="/doces">receitas doces</a></li>
+                    <li><a href="/bebidas">bebidas</a></li>
                 </ul>
             </nav>
         </div>

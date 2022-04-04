@@ -7,14 +7,13 @@ import batataRecheada from '../../public/img/batata-recheada.jpeg';
 import arrozSoltinho from '../../public/img/arroz-soltinho.jpg';
 
 //import receitas
-import receitaStrogonoffFrango from ''
 
 const CardsSalgados = () => (
     <section>
         <h1>Receitas Salgadas</h1>
     <main>
         <ul class="cards">
-            <li className="strogonoff-frango" onClick={receitaStrogonoffFrango}>
+            <li className="strogonoff-frango">
                 <h2>Strogonoff de Frango</h2>
                 <Image src= {strogonoffFrango}/>
                 <p class="tempo-preparo">20 min de preparo</p>

@@ -13,7 +13,7 @@ const CardsDoces= () => (
             <ul class="cards">
                 <li className="palha-italiana">
                     <h2>Palha Italiana</h2>
-                    <Image src= {palhaitaliana}/>
+                    <Image src= {palhaItaliana}/>
                     <p class="tempo-preparo">10 min de preparo</p>
                 </li>
                 <li className="bolo-choco-proteico">
