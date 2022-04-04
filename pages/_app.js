@@ -1,6 +1,6 @@
 //import '../styles/reset.css';
 import '../styles/styles.css';
-//import '../styles/cards.css';
+import '../styles/cards.css';
 
 export default function MyApp({ Component, pageProps }) {
     return (
