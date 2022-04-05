@@ -7,7 +7,6 @@ const linkStyle = {
     marginRight: 15
 }
 const Home = () => (
-
     <header>
         <div class="centralizar-cabecalho">
             <Image src={utensilios}/>
@@ -21,10 +20,8 @@ const Home = () => (
                     <li><a href="/bebidas">bebidas</a></li>
                 </ul>
             </nav>
-        </div>
-            
+        </div>    
     </header>
-    )
-
+)
 
 export default Home;
