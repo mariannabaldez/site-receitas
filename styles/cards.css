@@ -41,9 +41,10 @@ img{
     border-style: solid;
 }
 
-/*.cards li:hover {
+/*hover agindo no h2 -- descobrir uma forma de agir na li de cada card*/
+.cards :hover {
     color: rgb(128, 69, 69);
-}*/
+}
 
 .cards h2{
     font:unset;
