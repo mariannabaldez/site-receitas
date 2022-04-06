@@ -13,25 +13,16 @@ receitas_salgadas = [
         "rendimento": '2 porções'
     },
     {
-        receita: '',{
-            receita: '',
-            "ingredientes": [
-                {'': ''},
-                {'':  ''},
-            ],
-            "modo de preparo": [
-                '',
-                '',
-                ''
-            ],
-            "rendimento": ''
-        },
+        receita: '',
+        "ingredientes": [
+            {'': ''},
+            {'':  ''},
         ],
         "modo de preparo": [
             '',
             '',
             ''
         ],
-        "rendimento": ''
-    },
+        "rendimento": '',
+    }
 ];
