@@ -1,5 +1,5 @@
-receitas_salgadas = {
-    strogonoffFrango: {
+receitas_salgadas = [
+    {
         receita: 'Strogonoff de Frango',
         "ingredientes": [
             {'frango': '1 peito'},{'sal':  '2 pitadas'}, 'pimenta do reino', 'tempero de frango', 'cebola', 
@@ -10,6 +10,28 @@ receitas_salgadas = {
             'doure o frango',
             '...'
             ],
-        "rendimento": "2 porção"
-    }
-}
+        "rendimento": '2 porções'
+    },
+    {
+        receita: '',{
+            receita: '',
+            "ingredientes": [
+                {'': ''},
+                {'':  ''},
+            ],
+            "modo de preparo": [
+                '',
+                '',
+                ''
+            ],
+            "rendimento": ''
+        },
+        ],
+        "modo de preparo": [
+            '',
+            '',
+            ''
+        ],
+        "rendimento": ''
+    },
+];
