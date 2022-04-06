@@ -12,10 +12,12 @@ h1 {
     margin-bottom: 30px;
 }
 
-img{
-    max-width: 100%;
-    max-height: 100%;
-}
+/*definir tamanho das imagens dos cards
+
+Image {
+    max-width: 100px;
+    max-height: 50px;
+}*/
 
 .cards{
     width: 1500px;

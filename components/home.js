@@ -4,7 +4,7 @@ import Image from "next/image";
 import utensilios from '../public/img/utensilios-de-cozinha.png';
 
 const linkStyle = {
-    marginRight: 15;
+    marginRight: 15
 }
 const Home = () => (
     <header>
